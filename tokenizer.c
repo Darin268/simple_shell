@@ -15,7 +15,7 @@ if (!tokens)
 {
 free(tokens);
 perror("allocation error");
-exit ("EXIT_FAILURE");
+exit("EXIT_FAILURE");
 }
 token = _strtok(line, TOK_DELIM);
 while (token != NULL)

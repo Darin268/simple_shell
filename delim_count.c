@@ -2,7 +2,7 @@
 /**
  * _delim_count - count the words without :
  * @str: pointer to the string to count word
- * @delim: delimeter 
+ * @delim: delimeter
  * Return: the number of words in string
  */
 int _delim_count(char *str, char delim)

@@ -1,6 +1,6 @@
 #include "shell.h"
 /**
- * shell_halp - builtin to help in the standard output
+ * shell_help - builtin to help in the standard output
  * @args: arguments
  * Return: always 1
  */
