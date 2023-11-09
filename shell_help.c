@@ -7,7 +7,7 @@
 int shell_help(char **args)
 {
 int i;
-char builtin_str[] = {"cd", "help", "exit", "echo", NULL};
+char *builtin_str[] = {"cd", "help", "exit", "echo", NULL};
 (void)args;
 _puts("Simple Shell\n");
 _puts("Program name\n");

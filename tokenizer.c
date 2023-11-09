@@ -5,7 +5,7 @@
  * @line: line from standard input
  * Return: array of tokens
  */
-char **tokenizer(char **line)
+char **tokenizer(char *line)
 {
 int bufsize = _delim_count(line, ' '), i = 0;
 char **tokens = NULL;
@@ -15,7 +15,7 @@ if (!tokens)
 {
 free(tokens);
 perror("allocation error");
-exit("EXIT_FAILURE");
+exit(EXIT_FAILURE);
 }
 token = _strtok(line, TOK_DELIM);
 while (token != NULL)
