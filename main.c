@@ -6,7 +6,7 @@
  * @env: environment variables
  * Return: always 0
  */
-int main (int argc, char **argv, char **env)
+int main(int argc, char **argv, char **env)
 {
 char *line = NULL, **args = NULL;
 int status = 1, sh_interactive = 0;
