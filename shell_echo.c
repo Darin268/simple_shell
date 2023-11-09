@@ -30,6 +30,7 @@ else
 wait(&status);
 }
 return (1);
+}
 
 /**
  * shell_echo - to execute echo
